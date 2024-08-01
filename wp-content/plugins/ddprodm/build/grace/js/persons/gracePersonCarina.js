@@ -1,0 +1,1 @@
+!function(e){var n=1e3;ua=navigator.userAgent,(ua.indexOf("MSIE ")>-1||ua.indexOf("Trident/")>-1)&&(n=5e3),e("body").hasClass("et-fb")&&(n=1e4),setTimeout(function(){0!==e(".grace_person_carina").length&&e(".grace_person_carina .et_pb_team_member").each(function(){e(this).find(".et_pb_team_member_image").insertAfter(e(this).find(".et_pb_member_position"))})},n)}(jQuery);

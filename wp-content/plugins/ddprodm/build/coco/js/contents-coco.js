@@ -1,0 +1,1 @@
+!function(t){var e=500;t("body").hasClass("et-fb")&&(e=1e4),setTimeout(function(){t(".coco_start_today_content").each(function(){t(this).find(".et_pb_blurb .et_pb_main_blurb_image").insertAfter(t(this).find(".et_pb_blurb h4"))})},e)}(jQuery);

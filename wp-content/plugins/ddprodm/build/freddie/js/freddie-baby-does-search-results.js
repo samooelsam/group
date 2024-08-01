@@ -1,0 +1,1 @@
+!function(e){setInterval(function(){e(".freddie_baby_does_search_results_main article").each(function(){e(this).find("h2.entry-title a").succinct({size:38})})},200),e(".freddie_baby_does_search_results_main article").on("click",function(i){i.preventDefault(),e(this).first("a")[0].click()})}(jQuery);

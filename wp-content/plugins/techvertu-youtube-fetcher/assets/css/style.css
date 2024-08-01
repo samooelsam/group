@@ -1,0 +1,44 @@
+.jfh-youtube-item {
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 3%;
+  margin-bottom: 25px;
+  border: 1px solid #cecece;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); }
+  .jfh-youtube-item:nth-child(3n) {
+    margin-right: 0; }
+  .jfh-youtube-item h2 {
+    font-size: 1.3em;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box; }
+
+.more-link-wrapper {
+  text-align: center; }
+  .more-link-wrapper a {
+    color: #FFFFFF !important;
+    border-color: #15314e;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    font-size: 13px;
+    font-family: 'Karla', sans-serif !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    background-color: #15314e;
+    display: inline-block;
+    padding: 16px;
+    box-sizing: border-box; }
+
+.youtube-vids-wrapper {
+  text-align: center; }
+
+@media only screen and (max-width: 720px) {
+  .jfh-youtube-item {
+    width: 100%; } }
+
+/*# sourceMappingURL=style.css.map */

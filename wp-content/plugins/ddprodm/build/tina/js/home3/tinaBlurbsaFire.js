@@ -1,0 +1,1 @@
+!function(a){var i=1500;ua=navigator.userAgent,(ua.indexOf("MSIE ")>-1||ua.indexOf("Trident/")>-1)&&(i=5e3),a("body").hasClass("et-fb")&&(i=1e4),setTimeout(function(){0!==a(".tina_a_fire_blurbs").length&&a(".tina_a_fire_blurbs .et_pb_blurb").each(function(){a('<div class="blurb_arrow_icon"><div class="arrow"></div></div>').appendTo(a(this))})},i)}(jQuery);

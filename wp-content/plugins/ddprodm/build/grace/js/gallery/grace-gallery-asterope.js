@@ -1,0 +1,1 @@
+!function(e){e(document).ready(function(){e(".grace_gallery_asterope").each(function(){e(this).find(".et_pb_gallery_image img").removeAttr("srcset sizes width height"),e(this).find(".et_pb_gallery_image img").each(function(){var t=e(this).attr("src").replace(/-([0-9][0-9][0-9]x[0-9][0-9])\w+/g,"");e(this).attr("src",t)})})})}(jQuery);

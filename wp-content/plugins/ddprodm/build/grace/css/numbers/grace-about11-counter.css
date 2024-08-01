@@ -1,0 +1,15 @@
+.grace_about11_logos .et_pb_number_counter .pattern_box{background-color:#e02d43;position:absolute;top:50%;left:50%;width:70%;height:70%;z-index:-1;transition:.3s}
+@media only screen and (max-width: 767px) {
+    .grace_about11_logos .et_pb_column .et_pb_image {
+        text-align: center;
+        width: 26%;
+    }
+    .grace_about11_logos .et_pb_column {
+        column-gap: 11%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        row-gap: 30px;
+    }
+}

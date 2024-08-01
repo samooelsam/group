@@ -1,0 +1,1 @@
+!function(t){var e=1e3;t("body").hasClass("et-fb")&&(e=1e4),setTimeout(function(){t(".et_pb_column .et_pb_social_media_follow").each(function(){t(this).find("li").each(function(){var e=t(this).find("a").attr("title").replace("Follow on","");t(this).find("a .et_pb_social_media_follow_network_name").text(e)})})},e)}(jQuery);

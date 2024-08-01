@@ -1,0 +1,1 @@
+.grace_numbers_pallention .percent{position:relative}.grace_numbers_pallention .percent::after{position:absolute;left:50%;transform:translateX(-50%);-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-os-transform:translateX(-50%);-ms-transform:translateX(-50%);content:"";background:#3b5559;height:2px;width:20px;bottom:-5px}

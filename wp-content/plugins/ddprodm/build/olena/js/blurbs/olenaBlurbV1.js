@@ -1,0 +1,1 @@
+!function(e){var n=0;((ua=navigator.userAgent).indexOf("MSIE ")>-1||ua.indexOf("Trident/")>-1)&&(n=5e3),e("body").hasClass("et-fb")&&(n=1e4),setTimeout(function(){0!==e(".olena_blurb_v1").length&&e(".olena_blurb_v1 .et_pb_blurb ").each(function(){e(this).find(".et_pb_blurb_description").insertAfter(e(this).find(".et_pb_image_wrap "))})},n)}(jQuery);

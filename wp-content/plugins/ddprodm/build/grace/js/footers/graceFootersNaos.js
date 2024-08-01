@@ -1,0 +1,1 @@
+!function(e){var t=1e3;e("body").hasClass("et-fb")&&(t=1e4),setTimeout(function(){e(".grace_footers_naos .et_pb_column .et_pb_social_media_follow").each(function(){e(this).find("li").each(function(){var t=e(this).find("a").attr("title").replace("Follow on","");e(this).find("a .et_pb_social_media_follow_network_name").text(t)})})},t)}(jQuery);

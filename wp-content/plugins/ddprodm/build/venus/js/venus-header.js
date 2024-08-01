@@ -1,0 +1,1 @@
+!function(t){t("body a.video-popup.et_pb_button ").click(function(e){return e.preventDefault(),t.fancybox({padding:0,autoScale:!1,transitionIn:"none",transitionOut:"none",title:this.title,width:680,height:495,href:this.href,type:"swf",swf:{wmode:"transparent",allowfullscreen:"true"}}),!1})}(jQuery);

@@ -1,0 +1,142 @@
+.grace_gallery_ascella .et_pb_gallery_items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+#page-container .grace_gallery_ascella_v2 .et_pb_gallery_image a img {
+    width: 100%;
+}
+.grace_gallery_ascella .et_pb_gallery_items::after {
+    display: none;
+}
+#page-container .grace_gallery_ascella .et_pb_gallery_item {
+    margin: 0;
+    position: relative;
+    width: 33.333333%;
+}
+#page-container .grace_gallery_ascella_v2 a {
+width: 100%;
+}
+.grace_gallery_ascella .et_pb_gallery_image {
+    height: 285px;
+    display: flex;
+}
+.grace_gallery_ascella .et_pb_gallery_image a {
+    height: 100%;
+    display: flex;
+    display: block;
+    position: relative;
+    transition: all 0.4s;
+}
+.grace_gallery_ascella .et_pb_gallery_image a img {
+    object-fit: cover;
+    width: auto;
+    height: 100%;
+}
+.grace_gallery_ascella .et_pb_gallery_item .et_pb_gallery_image a:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    width: calc(100% + 2px);
+    height: calc(100% + 2px);
+    transition: 0.5s;
+    transition-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1);
+    z-index: 5;
+    box-shadow: inset 0 0 0 0 #0e0f11;
+}
+.grace_gallery_ascella .et_pb_gallery_item:hover .et_pb_gallery_image a:before {
+    box-shadow: inset 0 0 0 30px #0e0f11;
+}
+.grace_gallery_ascella .et_pb_gallery_item .et_pb_gallery_title {
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    transform-origin: 0 0;
+    transition: all 0.3s;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    pointer-events: none;
+    z-index: 4;
+    padding: 5%;
+    transform: translate(-50%, -50%);
+    margin-top: 0 !important;
+    transition-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+.grace_gallery_ascella .et_pb_gallery_item:hover .et_pb_gallery_title {
+    opacity: 1;
+}
+.grace_gallery_ascella .et_pb_gallery_item .et_overlay {
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-width: 0 !important;
+}
+.grace_gallery_ascella .et_pb_gallery_image .et_overlay:before {
+    display: none !important;
+}
+.grace_gallery_ascella_v2.grace_gallery_ascella .et_pb_gallery_items {
+    margin-bottom: 0;
+}
+.grace_gallery_ascella_v2.grace_gallery_ascella .et_pb_gallery_image {
+    height: auto !important;
+}
+.grace_gallery_ascella_v2.grace_gallery_ascella .et_pb_gallery_item .et_pb_gallery_image a:before {
+    box-shadow: inset 0 0 0 0 #fff;
+}
+.grace_gallery_ascella_v2.grace_gallery_ascella .et_pb_gallery_item:hover .et_pb_gallery_image a:before {
+    box-shadow: inset 0 0 0 30px #fff;
+}
+#page-container .grace_gallery_ascella_v2.grace_gallery_ascella .et_pb_gallery_item {
+    border-color: #fff;
+    border-style: solid;
+    border-bottom-width: 1.5px;
+}
+#page-container .grace_gallery_ascella_v2.grace_gallery_ascella .et_pb_gallery_item:nth-child(3n + 1) {
+    border-right-width: 1px !important;
+}
+#page-container .grace_gallery_ascella_v2.grace_gallery_ascella .et_pb_gallery_item:nth-child(3n + 3) {
+    border-left-width: 1px !important;
+}
+#page-container .grace_gallery_ascella_v2.grace_gallery_ascella .et_pb_gallery_item:nth-child(3n + 2) {
+    border-left-width: 0.5px !important;
+    border-right-width: 0.5px !important;
+}
+@media only screen and (min-width: 981px) and (max-width: 1389px) {
+    .grace_gallery_ascella_v2 .et_pb_gallery_item .et_pb_gallery_title {
+        font-size: 24px !important;
+    }
+}
+@media all and (max-width: 980px) {
+    #page-container .grace_gallery_ascella .et_pb_gallery_item {
+        margin: 0;
+        width: 50%;
+    }
+    .grace_gallery_ascella .et_pb_gallery_item .et_pb_gallery_title {
+        opacity: 1;
+        transform: translate(0, 0) scale(1);
+    }
+    .grace_gallery_ascella .et_pb_gallery_item .et_pb_gallery_caption {
+        opacity: 1;
+        transform: translate(0, 0) scale(1);
+    }
+}
+@media all and (max-width: 480px) {
+    #page-container .grace_gallery_ascella .et_pb_gallery_item {
+        width: 100%;
+    }
+}
+body .grace_gallery_ascella_hotel_v3.grace_gallery_ascella .et_pb_gallery_item .et_pb_gallery_image a:before {
+    box-shadow: inset 0 0 0 0 #fff !important;
+}
+body .grace_gallery_ascella_hotel_v3.grace_gallery_ascella .et_pb_gallery_item:hover .et_pb_gallery_image a:before {
+    box-shadow: inset 0 0 0 30px #fff !important;
+}

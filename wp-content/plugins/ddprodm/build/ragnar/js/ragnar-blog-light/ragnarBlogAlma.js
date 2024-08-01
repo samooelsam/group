@@ -1,0 +1,1 @@
+!function(a){var e=1e3;ua=navigator.userAgent,(ua.indexOf("MSIE ")>-1||ua.indexOf("Trident/")>-1)&&(e=1e4),a("body").hasClass("et-fb")&&(e=1e4),setTimeout(function(){0!==a(".ragnar_blog_alma ").length&&a("#page-container .ragnar_blog_alma  article.et_pb_post").on("click",function(){window.location.href=a(this).find(".entry-title a").attr("href")})},e)}(jQuery);

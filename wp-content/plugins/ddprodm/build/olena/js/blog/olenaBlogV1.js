@@ -1,0 +1,7 @@
+(function($){function isIE(){ua=navigator.userAgent;var is_ie=ua.indexOf("MSIE ")>-1||ua.indexOf("Trident/")>-1;return is_ie}
+var olenaBlogV1=0;if(isIE()){olenaBlogV1=5000}
+if($('body').hasClass('et-fb')){olenaBlogV1=10000}
+setTimeout(function(){if($('.olena_blog_v1').length!==0){setInterval(function(){if(!$('.olena_blog_v1 .et_pb_posts article').hasClass('done')){$('.olena_blog_v1 .et_pb_post .post-meta').each(function(){var author=$(this).find('span.author')[0];var date=$(this).find('span.published')[0];var categories=$(this).find('a[rel="tag"]').toArray();var dateDay=$(this).find('.published').text();var html="";var month=dateDay.replace(/\d+/g,'');var day=parseInt(dateDay);if(dateDay){var topDate='<span class="top_date"><span class="day">'+day+'</span><span class="month">'+month+'</span></span>';date='<span class="published"><span class="day"> '+dateDay+'</span></span>';html+=date+topDate}
+if(author){if(dateDay){html=date;html+='by '+author.outerHTML}else{html='by '+author.outerHTML}}
+if(categories.length!==0){categories=$.map(categories,function(element){return element.outerHTML});categories=categories.join(', ');html+="<span class='line'>/</span><span class='categories'>"+categories+"</span>"}
+$(this).html(html)});$('.olena_blog_v1 .et_pb_post').each(function(){$(this).find('.published').insertBefore($(this).find('h2.entry-title'));$(this).find('.post-meta').insertBefore($(this).find('h2.entry-title'))});$('.olena_blog_v1 .et_pb_posts article').addClass('done')}},50)}},olenaBlogV1)})(jQuery)

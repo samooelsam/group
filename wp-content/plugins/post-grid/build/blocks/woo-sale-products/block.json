@@ -1,0 +1,156 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "post-grid/woo-sale-products",
+  "title": "Woo Sale Products",
+  "textdomain": "post-grid",
+  "category": "post-grid-woo",
+  "usesContext": [
+    "postId",
+    "loopIndex",
+    "postType",
+    "queryId"
+  ],
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "attributes": {
+    "wrapper": {
+      "type": "object",
+      "default": {
+        "options": {
+          "tag": "div",
+          "class": "pg-woo-sale-products"
+        },
+        "styles": {
+          "color": {
+            "Desktop": ""
+          },
+          "backgroundColor": {
+            "Desktop": ""
+          },
+          "padding": {
+            "Desktop": ""
+          },
+          "margin": {
+            "Desktop": ""
+          }
+        }
+      }
+    },
+    "itemsWrapper": {
+      "type": "object",
+      "default": {
+        "options": {
+          "class": ""
+        },
+        "styles": {}
+      }
+    },
+    "itemWrapper": {
+      "type": "object",
+      "default": {
+        "options": {
+          "class": ""
+        },
+        "styles": {}
+      }
+    },
+    "image": {
+      "type": "object",
+      "default": {
+        "options": {
+          "class": "wc-block-grid__product-image"
+        },
+        "styles": {}
+      }
+    },
+    "saleBadge": {
+      "type": "object",
+      "default": {
+        "options": {
+          "class": "wc-block-grid__product-onsale"
+        },
+        "styles": {}
+      }
+    },
+    "title": {
+      "type": "object",
+      "default": {
+        "options": {
+          "class": "wc-block-grid__product-title"
+        },
+        "styles": {}
+      }
+    },
+    "price": {
+      "type": "object",
+      "default": {
+        "options": {
+          "class": "price"
+        },
+        "styles": {}
+      }
+    },
+    "onSalePrice": {
+      "type": "object",
+      "default": {
+        "options": {
+          "class": ""
+        },
+        "styles": {}
+      }
+    },
+    "addToCart": {
+      "type": "object",
+      "default": {
+        "options": {
+          "class": "add_to_cart_button"
+        },
+        "styles": {}
+      }
+    },
+    "shortcodeParam": {
+      "type": "object",
+      "default": {
+        "limit": "",
+        "columns": "",
+        "paginate": "",
+        "orderby": "",
+        "order": "",
+        "sku": "",
+        "category": "",
+        "tag": "",
+        "class": "",
+        "on_sale": "",
+        "best_selling": "",
+        "top_rated": ""
+      }
+    },
+    "visible": {
+      "type": "object",
+      "default": {}
+    },
+    "blockId": {
+      "type": "string",
+      "default": ""
+    },
+    "blockCssY": {
+      "type": "object",
+      "default": {
+        "items": {}
+      }
+    }
+  },
+  "style": "front_style",
+  "script": "front_script",
+  "keywords": [
+    "Woo breadcrumb",
+    "woocommerce breadcrumb",
+    "woocommerce breadcrumbs"
+  ],
+  "description": "woocommerce breadcrumbs block ."
+}

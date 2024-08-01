@@ -1,0 +1,1 @@
+!function(e){var n=1e3;ua=navigator.userAgent,(ua.indexOf("MSIE ")>-1||ua.indexOf("Trident/")>-1)&&(n=1e4),e("body").hasClass("et-fb")&&(n=1e4),setTimeout(function(){e(".ragnar_header_descendant").length},n)}(jQuery);
